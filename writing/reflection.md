@@ -58,6 +58,8 @@ TODO: Add program output in a fenced code block.
 
 TODO: Document and justify your choice for all of the experiment parameters
 
+TODO: Make sure that at least one of the outputs show the `help` menu
+
 #### First output from running the `containmentcheck` program
 
 TODO: Add program output in a fenced code block.
