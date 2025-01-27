@@ -77,32 +77,40 @@ TODO: Make sure to state whether the output is from running on your laptop or Gi
 
 ### Report at least five examples of program output to demonstrate that your `containmentcheck` program works correctly
 
-TODO: Document and justify your choice for all the experiment parameters
+TODO: Document and justify your choice for all the experiment parameters; to be
+clear, the specific runs of the program for which you provide output should
+connect to the specific experiment parameters and research questions that you
+chose and formally defined in an upcoming section of this report.
 
 #### First output from running the `containmentcheck` program
 
 TODO: Provide the command-line used to run the `containmentcheck` program
 TODO: Use a fenced code block to provide the output from running `containmentcheck`
+TODO: Make sure to state whether the output is from running on your laptop or GitHub Actions
 
 #### Second output from running the `containmentcheck` program
 
 TODO: Provide the command-line used to run the `containmentcheck` program
 TODO: Use a fenced code block to provide the output from running `containmentcheck`
+TODO: Make sure to state whether the output is from running on your laptop or GitHub Actions
 
 #### Third output from running the `containmentcheck` program
 
 TODO: Provide the command-line used to run the `containmentcheck` program
 TODO: Use a fenced code block to provide the output from running `containmentcheck`
+TODO: Make sure to state whether the output is from running on your laptop or GitHub Actions
 
 #### Fourth output from running the `containmentcheck` program
 
 TODO: Provide the command-line used to run the `containmentcheck` program
 TODO: Use a fenced code block to provide the output from running `containmentcheck`
+TODO: Make sure to state whether the output is from running on your laptop or GitHub Actions
 
 #### Fifth output from running the `containmentcheck` program
 
 TODO: Provide the command-line used to run the `containmentcheck` program
 TODO: Use a fenced code block to provide the output from running `containmentcheck`
+TODO: Make sure to state whether the output is from running on your laptop or GitHub Actions
 
 ## Experiment Design
 
