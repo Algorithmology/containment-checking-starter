@@ -31,6 +31,115 @@ setup: |
         exact: false
 
 # perform checks on a file
+- containmentcheck/containmentcheck/analyze.py:
+    - description: Ensure that the analyze.py file exists in the containmentcheck/containmentcheck/ directory
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers, and rewrite comments for analyze.py
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Create a sufficient number of docstring (i.e., multiple-line) comments in analyze.py
+      check: CountMultipleLineComments
+      options:
+        language: "Python"
+        count: 2
+        exact: false
+    - description: Create a sufficient number of single-line comments in analyze.py
+      check: CountSingleLineComments
+      options:
+        language: "Python"
+        count: 3
+        exact: false
+
+# perform checks on a file
+- containmentcheck/containmentcheck/approach.py:
+    - description: Ensure that the approach.py file exists in the containmentcheck/containmentcheck/ directory
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers, and rewrite comments for approach.py
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Create a sufficient number of docstring (i.e., multiple-line) comments in approach.py
+      check: CountMultipleLineComments
+      options:
+        language: "Python"
+        count: 3
+        exact: false
+
+# perform checks on a file
+- containmentcheck/containmentcheck/containment.py:
+    - description: Ensure that the containment.py file exists in the containmentcheck/containmentcheck/ directory
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers, and rewrite comments for containment.py
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Create a sufficient number of docstring (i.e., multiple-line) comments in containment.py
+      check: CountMultipleLineComments
+      options:
+        language: "Python"
+        count: 3
+        exact: false
+    - description: Create a sufficient number of single-line comments in containment.py
+      check: CountSingleLineComments
+      options:
+        language: "Python"
+        count: 4
+        exact: false
+
+# perform checks on a file
+- containmentcheck/containmentcheck/generate.py:
+    - description: Ensure that the generate.py file exists in the containmentcheck/containmentcheck/ directory
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers, and rewrite comments for generate.py
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Create a sufficient number of docstring (i.e., multiple-line) comments in generate.py
+      check: CountMultipleLineComments
+      options:
+        language: "Python"
+        count: 3
+        exact: false
+    - description: Create a sufficient number of single-line comments in generate.py
+      check: CountSingleLineComments
+      options:
+        language: "Python"
+        count: 5
+        exact: false
+
+# perform checks on a file
+- containmentcheck/containmentcheck/util.py:
+    - description: Ensure that the util.py file exists in the containmentcheck/containmentcheck/ directory
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers, and rewrite comments for util.py
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Create a sufficient number of docstring (i.e., multiple-line) comments in util.py
+      check: CountMultipleLineComments
+      options:
+        language: "Python"
+        count: 2
+        exact: false
+    - description: Create a sufficient number of single-line comments in util.py
+      check: CountSingleLineComments
+      options:
+        language: "Python"
+        count: 2
+        exact: false
+
+# perform checks on a file
 - writing/reflection.md:
     - description: Ensure that the reflection.md file exists in the writing/ directory
       check: ConfirmFileExists
@@ -52,6 +161,12 @@ setup: |
         fragment: "I adhered to the Allegheny College Honor Code while completing this project."
         count: 3
         exact: true
+    - description: Specify the required number of research questions with the required prefix in the reflection.md
+      check: MatchFileFragment
+      options:
+        fragment: "RQ"
+        count: 3
+        exact: false
     - description: Confirm that the markdown file has the correct number of headers
       check: CountMarkdownTags
       options:
@@ -138,6 +253,5 @@ setup: |
   check: CountCommits
   options:
     count: 10
-
 
 # }}}
