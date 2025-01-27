@@ -1,11 +1,16 @@
 """Generate random data values and collections as containers."""
 
-import random
-from typing import List, Tuple, Union
+# TODO: Add any needed imports
+
+# TODO: Add type annotations to all functions
+
+# TODO: Add all of the needed documentation to the functions
+
+# TODO: Make sure that you understand how each of these functions work
 
 
 def generate_random_number(maximum, exceed):
-    # generate a random number that is either up to the maximum
+    # TODO: generate a random number that is either up to the maximum
     # or exceeding it by one, depending on the input parameter values
     return 0
 
