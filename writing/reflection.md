@@ -65,15 +65,15 @@ of this program from running on your laptop and one from GitHub Actions.
 
 #### First output from running the `systemsense` program
 
-```text
-output
-```
+TODO: Provide the command-line used to run the `containmentcheck` program
+TODO: Use a fenced code block to provide the output from running `containmentcheck`
+TODO: Make sure to state whether the output is from running on your laptop or GitHub Actions
 
 #### Second output from running the `systemsense` program
 
-```text
-output
-```
+TODO: Provide the command-line used to run the `containmentcheck` program
+TODO: Use a fenced code block to provide the output from running `containmentcheck`
+TODO: Make sure to state whether the output is from running on your laptop or GitHub Actions
 
 ### Report at least five examples of program output to demonstrate that your `containmentcheck` program works correctly
 
