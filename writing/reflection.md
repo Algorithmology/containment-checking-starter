@@ -6,7 +6,7 @@
 
 * [Containment Checking](#containment-checking)
   * [Table of Contents](#table-of-contents)
-  * [Gregory M. Kapfhammer](#gregory-m-kapfhammer)
+  * [Add Your Name Here](#add-your-name-here)
   * [Re-type the sentence "I adhered to the Allegheny College Honor Code while completing this project."](#re-type-the-sentence-i-adhered-to-the-allegheny-college-honor-code-while-completing-this-project)
   * [Program Output](#program-output)
     * [Report at least two examples of program output from when you can the `systemsense` program](#report-at-least-two-examples-of-program-output-from-when-you-can-the-systemsense-program)
@@ -38,13 +38,11 @@ prompts for work that you have not yet completed. The final version of this
 report should be written as if it was a scientific report that you could publish
 on the Algorithmology web site or in a scientific journal.
 
-## Gregory M. Kapfhammer
+## Add Your Name Here
 
 ## Re-type the sentence "I adhered to the Allegheny College Honor Code while completing this project."
 
 TODO: You must retype the sentence here in order to digitally sign your pledge.
-
-"I adhered to the Allegheny College Honor Code while completing this project."
 
 **IMPORTANT:** If you do not type the required sentence then the course
 instructor will not know that you adhered to the Allegheny College Honor Code
