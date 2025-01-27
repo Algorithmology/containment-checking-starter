@@ -4,6 +4,8 @@
 
 # TODO: Add type annotations to all functions
 
+# TODO: Add all of the needed documentation to the functions
+
 # TODO: Make sure that you understand how each of these functions work
 
 # TODO: For the containment_check_set function, make sure that you
