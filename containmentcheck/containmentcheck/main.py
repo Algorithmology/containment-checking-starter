@@ -25,9 +25,16 @@ cli = typer.Typer()
 console = Console()
 
 
+# TODO: Make sure that you understand how each of these functions work
+
+# TODO: Make sure that you add all of the needed documentation to the functions
+
+# TODO: Make sure that you add type annotations to all functions
+
+
 def perform_containment_check_benchmark(
     containment_check_lambda,
-) -> None:
+):
     """Run an experiment using the timeit package for the specific function."""
     # set the number of runs inside of a benchmark
     # TODO: you may want to consider making this a parameter to the tool
@@ -65,15 +72,15 @@ def containmentcheck(
     random_number = generate_random_number(maximum, exceed)
     # display diagnostic details about the configuration of the experiment
     console.print(
-        ":sparkles: Conducting an experiment to measure the performance of containment checking!"
+        "Conducting an experiment to measure the performance of containment checking!\n"
     )
-    console.print(f"\tType of the data container: {approach}")
-    console.print(f"\tSize of the data container: {size}")
+    console.print(f"Type of the data container: {approach}")
+    console.print(f"Size of the data container: {size}")
     console.print(
-        f"\tMaximum value for a number in the data container: {maximum}"
+        f"Maximum value for a number in the data container: {maximum}"
     )
     console.print(
-        f"\tShould the value to search for exceed the maximum number? {human_readable_boolean(exceed)}"
+        f"Should the value to search for exceed the maximum number? {human_readable_boolean(exceed)}"
     )
     console.print()
     # conduct an experiment for containment checking with the list data structure
