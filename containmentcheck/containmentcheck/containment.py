@@ -1,6 +1,8 @@
 """Perform containment checks on data values in a collection."""
 
-from typing import List, Tuple
+# TODO: Add any needed imports
+
+# TODO: Add type annotations to all functions
 
 # TODO: Make sure that you understand how each of these functions work
 
@@ -8,30 +10,19 @@ from typing import List, Tuple
 # read the referenced web site and understand how the function works
 
 
-def containment_check_list(thelist: List[int], number: int) -> bool:
-    """Determine if a value is contained in the list."""
+def containment_check_list(thelist, number):
     # assume that the value is not inside of the list
     found = False
-    # the value is, in fact, inside of the list
-    if number in thelist:
-        found = True
-    # return bool to indicate whether or not value is found
     return found
 
 
-def containment_check_tuple(thetuple: Tuple[int], number: int) -> bool:
-    """Determine if a value is contained in the list."""
+def containment_check_tuple(thetuple, number):
     # assume that the value is not inside of the tuple
     found = False
-    # the value is, in fact, inside of the tuple
-    if number in thetuple:
-        found = True
-    # return the bool to indicate whether or not value is found
     return found
 
 
-def containment_check_set(thelist: List[int], number: int) -> bool:
-    """Determine if a value is contained in the list."""
+def containment_check_set(thelist, number):
     # Conventional wisdom often suggests it is faster to:
     # - Convert a list to a set
     # - Search for a number in the set
